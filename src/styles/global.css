@@ -20,7 +20,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-
 /* nav styles */
 .menu {
   background-color: #0d0950;
@@ -49,7 +48,7 @@ h1 {
 }
 
 .nav-links a:hover,
-.nav-links a:focus{
+.nav-links a:focus {
   background-color: #ff9776;
 }
 
@@ -74,4 +73,27 @@ h1 {
   .menu {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .menu {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark .nav-links a:hover,
+.dark .nav-links a:focus {
+  color: #0d0950;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+
+.dark a {
+  color: #ff9776;
 }
